@@ -4,6 +4,10 @@ $('.top').click(function(){
 	}, 700)
 })
 
+$('.navbar-nav').click(function(){
+	$('.navbar-toggle').click()
+})
+
 $(".cari").on("keyup", function() {
 	var value = $(this).val().toLowerCase();
 	$(".song").filter(function() {
